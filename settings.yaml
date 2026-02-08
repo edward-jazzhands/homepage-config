@@ -1,0 +1,17 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+showStats: true
+#headerStyle: boxed
+
+#providers:
+#  openweathermap: 7acff71bdf4495d1c00c8eac37009d4a
+
+layout:
+  TrueNAS Server [Tailnet]:
+    style: row
+    columns: 4
+  Internet:
+    style: row
+    columns: 3

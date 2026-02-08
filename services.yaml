@@ -1,0 +1,40 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- TrueNAS Server [Tailnet]:
+    - TrueNAS Admin:
+        icon: truenas
+        href: http://truenas-scale:8080/ui/dashboard
+        description: TrueNAS Admin Panel
+    - Dockge:
+        icon: dockge
+        href: http://truenas-scale:31014/
+        description: Docker container manager
+    - QbitTorrent:
+        icon: qbittorrent
+        href: http://truenas-scale:30024/
+        description: Torrent download manager
+    - PyLoad:
+        icon: pyload
+        href: http://truenas-scale:31982/
+        description: Download manager
+    - Pi-Hole:
+        icon: pi-hole
+        href: http://truenas-scale:20720/
+        description: Ad-Blocking service
+    - Code-Server [Docker]:
+        icon: coder
+        href: http://truenas-scale:33843/
+        description: VS Code in the browser
+    - Code-Server [UbuntuVM]:
+        icon: coder
+        href: http://ubuntu-server-vm:8080/
+        description: VS Code in the browser
+    - Romm:
+        icon: romm
+        href: http://truenas-scale:31657/
+        description: Retro game emulator
+
+
+
